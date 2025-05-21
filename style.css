@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0D1B2A;
+    color: #96F49F;
+    font-family: Montserrat, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    background-color: #16db65;
+    color: #0c263f;
+    padding: 20px;
+    text-align: center;
+}
+
+p {
+    margin: 1rem;
+    text-align: center;
+    font-size: 1.5vh;
+    margin-bottom: 6vh;
+}
+
+h2 {
+    margin-left: 1rem;
+    font-size: 3.5vh;
+}
+
+a {
+    margin: 1.5rem;
+    text-decoration: none;
+    color: #16db65;
+    font-size: 1.8vh;
+}
+
+img {
+    margin: auto;
+    display: block;
+    width: 30vh;
+}
+
+.ref_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links {
+    margin-left: 1vh;
+    width: 100%;
+}
+
+#instrucao {
+    font-size: 1.5vh;
+    color: #e0f2e9;
+}
+
+@media (min-width: 900px) {
+    header {
+        color: #0c263f
+    }
+    .ref_container {
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+    .links {
+        width: 50%;
+    }
+    img {
+        width: 35vh;
+    }
+}
